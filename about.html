@@ -1,0 +1,52 @@
+<!DOCTYPE html> <!-- Tipe ini menggambarkan kalau kita menggunakan HTML 5-->
+<html>
+ <head>
+   <link rel="icon" type="image/png" href="me.png">
+   <!-- head untuk tampilan pada TAB-->
+   <title>Dolfiabdra's Blog</title> <!-- judul pada tab bar, TITLE cuma ada di HEAD-->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ <body>
+   <!-- body adalah untuk bagian badan browser, atau seluruh page-->
+   <div id="header">  <!-- pada BODY ada 3 section, yaitu Header, Content, Footer-->
+    <div class="container"> <!-- pada semua section dibuatkan Container-->
+      <a href="index.html">My Blog</a><!--HOME-->
+      <ul id="header-nav" class="navbar-links">
+        <li><a id="header-title" href="about.html">About</a></li> <!-- href untuk link, atau alamat lain, intinya text yang bisa di klik-->
+        <li><a href="mailto:rezadolfiandra@gmail.com">Contact</a></li>
+      </ul>
+    </div>
+   </div>
+   <div id="content">
+     <div class="container">
+       <div class="about">
+         <div class="about-author">
+          <img src="me.png" height="150" weight="150">
+        </div>
+        <h1 class="about-title">About Me</h1>
+        <div class="about-content">
+          <p>A <strong>non IT guy</strong> who fall in love in technology & Start to learn about code to show ideas to world.</p>
+          <p>Currently working as a Pilot in Indonesian Space Program.</p>
+          <p>Psssttt.....you can reach me on the website's footer or you can click "Contact" above.</p>
+       </div>
+       </div>
+     </div>
+   </div>
+   <div id="footer">
+     <div class="container">
+       <div class="column">
+         <h4>My Links</h4>
+         <p>
+           <a href="http://twitter.com">Twitter</a>
+           <br> <!--break ga perlu penutup-->
+           <a href="http://facebook.com">Facebook</a>
+         </p>
+       </div>
+       <div class="column">
+         <h4>My Story</h4>
+         <p>Hi there! I'm trying to be number 1 web developer.</p>
+       </div>
+     </div>
+   </div>
+ </body>
+</html>
