@@ -42,6 +42,7 @@ body {
 #footer {
   background-color: #2f2f2f;
     padding: 50px 0;
+  vertical-allign: top;
 }
 .column {
   min-width: 300px;
